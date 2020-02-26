@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar target/demo-0.0.1-SNAPSHOT.jar
+web: java -jar globalradio/globalradio-backend/target/globalradio-backend-0.0.1-SNAPSHOT.jar
