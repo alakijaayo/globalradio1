@@ -1,6 +1,11 @@
 language: java
 jdk:
   - openjdk8
+before_script:
+  - mvn clean package
+script:
+  - cd globalradio-backend
+  - mvn spring-boot:run 
 deploy:
   provider: heroku
   api_key:
