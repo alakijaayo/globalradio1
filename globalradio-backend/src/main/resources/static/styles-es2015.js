@@ -338,7 +338,7 @@ if (content.locals) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/aalakija/Desktop/Testing/globalradio/globalradio-frontend/src/styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! /Users/aalakija/Desktop/globalradio1/globalradio-frontend/src/styles.css */"./src/styles.css");
 
 
 /***/ })

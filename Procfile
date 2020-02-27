@@ -1,1 +1,1 @@
-web: java -jar globalradio/globalradio-backend/target/globalradio-backend-0.0.1-SNAPSHOT.jar
+web: java $JAVA_OPTS -Dserver.port=$PORT -jar target/*.jar -Dspring.profiles.active=prod
