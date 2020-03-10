@@ -17,7 +17,7 @@ public class DemoApplication {
 	ApplicationRunner init (CarRepository repository) {
 		return args -> {
 			Stream.of("Ferrari", "Jaguar", "Porsche", "Lamborghini", "Bugatti",
-				      "AMC Gremlin", "Triumph Stag", "Ford Pinto", "Yugo GV").forEach(name -> {
+				      "AMC Gremlin", "Triumph Stag", "Ford Pinto", "Yugo GV", "Koenigsegg").forEach(name -> {
 						  Car car = new Car();
 						  car.setName(name);
 						  repository.save(car);
