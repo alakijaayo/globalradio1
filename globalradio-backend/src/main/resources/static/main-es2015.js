@@ -495,7 +495,7 @@ let CarService = class CarService {
         this.http = http;
     }
     getAll() {
-        return this.http.get('//localhost:8080/cool-cars' || false);
+        return this.http.get('//localhost:8080/cool-cars');
     }
 };
 CarService.ctorParameters = () => [
