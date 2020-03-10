@@ -10,6 +10,6 @@ export class CarService {
     }
 
     getAll(): Observable<any> {
-        return this.http.get('//localhost:8080/cool-cars');
+        return this.http.get('//localhost:8080/cool-cars' || 'https://globalradio2.herokuapp.com/cool-cars');
     }
 }
