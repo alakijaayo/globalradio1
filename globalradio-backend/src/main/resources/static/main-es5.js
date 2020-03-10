@@ -1019,7 +1019,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(CarService, [{
         key: "getAll",
         value: function getAll() {
-          return this.http.get('//localhost:8080/cool-cars');
+          return this.http.get('//localhost:8080/cool-cars' || false);
         }
       }]);
 
