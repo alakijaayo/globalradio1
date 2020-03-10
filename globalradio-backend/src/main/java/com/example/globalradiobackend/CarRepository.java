@@ -5,7 +5,7 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 @RepositoryRestResource
-@CrossOrigin(origins = "http://globalradio2.herokuapp.com")
+@CrossOrigin(origins = "https://globalradio2.herokuapp.com/")
 interface CarRepository extends JpaRepository<Car, Long> {
     
 }
